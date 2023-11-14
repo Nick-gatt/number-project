@@ -1,10 +1,11 @@
+"User attemps to correctly guess the number"
+
 import random
 
 def generate_random_number():
-    "User attempts to guess the number"
-    
-number = random.randint(1, 100)
-answer = number
-print(answer)
+    return random.randint(1, 100)
+
+print(generate_random_number())
+
 
 
